@@ -1,0 +1,84 @@
+body {
+    background-color: #1e4d91; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    background-color: #ffffff; /* White card background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .card h2 {
+    color: #2c3e50; /* Dark text color */
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3498db; /* Blue border color */
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .checkbox-group input {
+    margin-right: 5px;
+  }
+  
+  .button {
+    background-color: #1e4d91; /* Blue button color */
+    color: #ffffff; /* White text color */
+    padding: 10px;
+    border: 1px solid #2980b9; /* Darker blue border color */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+
+  .delete-button {
+    background-color: #e74c3c; /* Make the delete button red */
+    border-color: #c0392b;
+  }
+
+  .button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  .login-link {
+    color: #3498db; /* Blue link color */
+    text-decoration: none;
+  }
+
+  .register-link {
+    color: #3498db; /* Blue link color */
+    text-decoration: none;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #2574a9; /* Darker blue on hover */
+  }
+  

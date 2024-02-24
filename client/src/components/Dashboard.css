@@ -1,0 +1,70 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+.conversations-container {
+  margin-bottom: 20px;
+}
+
+.conversation-item {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.conversation-item button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.participant-name {
+  font-weight: bold;
+}
+
+.last-message {
+  color: #666;
+}
+
+.selected-conversation-container {
+  background-color: #ecf0f1;
+  padding: 20px;
+}
+
+.message-item {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.message-text {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.message-sender {
+  color: #666;
+}
+
+.reply-form-container {
+  margin-top: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
